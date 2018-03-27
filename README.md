@@ -49,6 +49,11 @@ Download from SZ_Project/Week3 the source code.
 
 - CloudAMQP provides an asynchronized approach for data fetchers to produce and consume rental info.
 
+## Update
+- Node dependency modified
+  - In the npm jade has been renamed to pug, which makes the previous node deprecated, quot.
+  > Jade has been renamed to pug, please install the latest version of pug instead of jade
+
 ## Author
 
-**Eason - @2017**
+**Eason - @2016**
