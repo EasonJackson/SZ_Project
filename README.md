@@ -37,17 +37,17 @@ SmahtZillow is a rental searh engine template application.
   
 - Tor (optional)
 
-### Download and Using
+### Download and Use
 
 Download from SZ_Project/Week3 the source code.
 
-Run the local mongodb.
+- Run the local mongodb.
 
-Run the node server, go to the directory under SZ_Project/Week3, use ```./bin/www``` to start the web server.
+- Run the node server, go to the directory under SZ_Project/Week3, use ```./bin/www``` to start the web server.
 
-Front-end server will take request from clients and call data fetchers, which are back-end crawlers, to collect info corresponding to the search criterions. These data will be stored on the local MongoDB. Data fetchers are cooporated with zillow-api in case when data is not available throught crawlers.
+  Front-end server will take request from clients and call data fetchers, which are back-end crawlers, to collect info corresponding to the search criterions. These data will be stored on the local MongoDB. Data fetchers are cooporated with zillow-api in case when data is not available throught crawlers.
 
-CloudAMQP provides an asynchronized approach for data fetchers to produce and consume rental info.
+- CloudAMQP provides an asynchronized approach for data fetchers to produce and consume rental info.
 
 ## Author
 
